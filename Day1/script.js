@@ -26,3 +26,5 @@ function abc() {
 
 // when this function initialized in our execution context  
 abc()
+
+/************************************************************************************************************ */
