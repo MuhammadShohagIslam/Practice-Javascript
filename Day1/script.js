@@ -28,3 +28,17 @@ function abc() {
 abc()
 
 /************************************************************************************************************ */
+// Emplicity and Explicit Binding
+
+var obj = {
+    name: 'Abc',
+    display: function () {
+        console.log(this.name)
+    }
+}
+
+var obj1 = {
+    name: 'def'
+}
+
+obj.display.call(obj1)
